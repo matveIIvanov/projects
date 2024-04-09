@@ -5,7 +5,6 @@ import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
-import { Image } from 'astro:assets';
 
 
 const allPosts = (await getCollection('blog')).sort(
@@ -98,7 +97,7 @@ const posts = allPosts.filter(post => post.data.show === true );
 						posts.map((post) => (
 							<li>
 								<a href={`/blog/${post.slug}/`}>
-									<Image width={720} height={360} src={post.data.heroImage} alt="" />
+									<img width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
