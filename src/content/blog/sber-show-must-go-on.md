@@ -2,7 +2,7 @@
 title: 'Проект для СберТех'
 description: 'Это небольшой проект, мини демонстрация моих нвыков в Markdown и не только.'
 pubDate: '10 April 2024'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder-1-3.jpg'
 show: true
 ---
 
@@ -35,16 +35,25 @@ show: true
 
 ### Что получилось? 
 
-Болтать не мешки ворочить.
+Пока только кинул отклик, посмотрим 🤷‍♂️
 
 <section>
-<span>Сайт докумнетация по любой из этих ссылок:</span>
+<span>Сайт-докумнетация по любой из этих ссылок:</span>
 <ol style="margin-top: 0px"> 
 <li>
- https://sber.matvei-ivanov.com  
+<a href="https://sber.matvei-ivanov.com  " target="_blank"> 
+https://sber.matvei-ivanov.com  
+</a>
 </li>
 <li>
+<a href="https://matvei-ivanov.com/sber-show-must-go-on" target="_blank"> 
 https://matvei-ivanov.com/sber-show-must-go-on
+</a>
+</li>
+<li>
+<a href="https://gitverse.ru/halivara/sber-show-must-go-on" target="_blank"> 
+https://gitverse.ru/halivara/sber-show-must-go-on
+</a>
 </li>
 </ol>
 </section>
