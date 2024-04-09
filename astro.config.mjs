@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://sber.matvei-ivanov.ru',
+	site: 'https://matvei-ivanov.ru',
 	integrations: [mdx(), sitemap()],
 });
